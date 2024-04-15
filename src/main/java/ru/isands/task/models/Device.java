@@ -31,7 +31,7 @@ public class Device {
     @Column(name = "is_installment")
     private Boolean isInstallment;
 
-    @OneToMany
+    @OneToMany(fetch = FetchType.LAZY)
     @JoinColumn(name = "device_id")
     private List<Model> models;
 

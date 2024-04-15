@@ -38,6 +38,6 @@ public abstract class AbstractModel {
     @Column(name = "type_of_device")
     private String typeOfDevice;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Device device;
 }
