@@ -1,11 +1,9 @@
 package ru.isands.task.util.validators;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 import ru.isands.task.models.Device;
-import ru.isands.task.services.DeviceService;
 import ru.isands.task.util.exceptions.EntityNotValidException;
 
 @Component

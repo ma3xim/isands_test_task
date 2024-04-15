@@ -2,7 +2,6 @@ package ru.isands.task.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.isands.task.models.Fridge;
 import ru.isands.task.models.VacuumCleaner;
 
 import java.util.List;

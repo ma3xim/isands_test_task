@@ -3,7 +3,6 @@ package ru.isands.task.repositories;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 
-
 import java.util.List;
 
 @Repository

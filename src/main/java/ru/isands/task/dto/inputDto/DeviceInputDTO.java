@@ -1,11 +1,8 @@
 package ru.isands.task.dto.inputDto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
-import jdk.jfr.BooleanFlag;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 

@@ -2,12 +2,10 @@ package ru.isands.task.services.searchAndFilters;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.isands.task.models.Computer;
 import ru.isands.task.models.Model;
 import ru.isands.task.repositories.ModelRepository;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class ModelsSearchAndFilter {

@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.isands.task.dto.inputDto.DeviceInputDTO;
-import ru.isands.task.dto.outputDto.ComputerOutputDTO;
 import ru.isands.task.dto.outputDto.DeviceOutputDTO;
 import ru.isands.task.dto.outputDto.ModelOutputDTO;
 import ru.isands.task.mapper.DeviceMapper;

@@ -1,7 +1,6 @@
 package ru.isands.task.dto.outputDto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.persistence.Column;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 

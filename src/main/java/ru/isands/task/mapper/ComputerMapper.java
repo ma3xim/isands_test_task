@@ -1,11 +1,8 @@
 package ru.isands.task.mapper;
 
-import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import ru.isands.task.dto.inputDto.ComputerInputDTO;
 import ru.isands.task.dto.outputDto.ComputerOutputDTO;
 import ru.isands.task.models.Computer;
-import ru.isands.task.models.Model;
 
 public class ComputerMapper {
     public static ComputerOutputDTO toOutputDto(Computer computer) {

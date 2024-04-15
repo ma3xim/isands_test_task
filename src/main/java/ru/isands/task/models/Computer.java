@@ -2,9 +2,6 @@ package ru.isands.task.models;
 
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
-
-import java.math.BigDecimal;
 
 @Entity
 @Data

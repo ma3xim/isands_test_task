@@ -3,7 +3,6 @@ package ru.isands.task.dto.outputDto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
-import ru.isands.task.models.Model;
 
 import java.util.List;
 

@@ -3,7 +3,6 @@ package ru.isands.task.util.validators;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import ru.isands.task.models.Computer;
 import ru.isands.task.models.Tv;
 import ru.isands.task.util.exceptions.EntityNotValidException;
 
