@@ -7,4 +7,4 @@
 3. Запустить через среду разработки или через консоль командой mvn spring-boot:run в корне проекта.
 4. Перейти по адресу http://localhost:8080/swagger-ui/index.html#
 
-Если есть проблемы с кодировкой, то можно попробовать расскоментить #spring.sql.init.encoding = UTF-8 в application.properties
+Если есть проблемы с кодировкой, то можно попробовать расскомментить #spring.sql.init.encoding = UTF-8 в application.properties
