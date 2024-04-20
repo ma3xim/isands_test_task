@@ -1,70 +1,70 @@
 INSERT INTO Device (name, country_manufacturer, company_manufacturer, is_online_order, is_installment)
-VALUES ('Телевизор', 'Япония', 'Sony', false, true),
-       ('Телевизор', 'Южная Корея', 'Samsung', true, false),
-       ('Телевизор', 'Нидерланды', 'Philips', true, false),
-       ('Пылесос', 'Южная Корея', 'Samsung', true, true),
-       ('Пылесос', 'Южная Корея', 'LG', false, false),
-       ('Пылесос', 'Австрия', 'Brayer', true, true),
-       ('Холодильник', 'Германия', 'Bosch', false, true),
-       ('Холодильник', 'Южная Корея', 'LG', true, true),
-       ('Холодильник', 'Беларусь', 'Atlant', true, true),
-       ('Смартфон', 'США', 'Apple', true, true),
-       ('Смартфон', 'США', 'Google', false, true),
-       ('Смартфон', 'Китай', 'Huawei', false, true),
-       ('Компьютер', 'США', 'Apple', false, true),
-       ('Компьютер', 'США', 'HP', false, true),
-       ('Компьютер', 'Китай', 'Lenovo', true, true);
+VALUES ('РўРµР»РµРІРёР·РѕСЂ', 'РЇРїРѕРЅРёСЏ', 'Sony', false, true),
+       ('РўРµР»РµРІРёР·РѕСЂ', 'Р®Р¶РЅР°СЏ РљРѕСЂРµСЏ', 'Samsung', true, false),
+       ('РўРµР»РµРІРёР·РѕСЂ', 'РќРёРґРµСЂР»Р°РЅРґС‹', 'Philips', true, false),
+       ('РџС‹Р»РµСЃРѕСЃ', 'Р®Р¶РЅР°СЏ РљРѕСЂРµСЏ', 'Samsung', true, true),
+       ('РџС‹Р»РµСЃРѕСЃ', 'Р®Р¶РЅР°СЏ РљРѕСЂРµСЏ', 'LG', false, false),
+       ('РџС‹Р»РµСЃРѕСЃ', 'РђРІСЃС‚СЂРёСЏ', 'Brayer', true, true),
+       ('РҐРѕР»РѕРґРёР»СЊРЅРёРє', 'Р“РµСЂРјР°РЅРёСЏ', 'Bosch', false, true),
+       ('РҐРѕР»РѕРґРёР»СЊРЅРёРє', 'Р®Р¶РЅР°СЏ РљРѕСЂРµСЏ', 'LG', true, true),
+       ('РҐРѕР»РѕРґРёР»СЊРЅРёРє', 'Р‘РµР»Р°СЂСѓСЃСЊ', 'Atlant', true, true),
+       ('РЎРјР°СЂС‚С„РѕРЅ', 'РЎРЁРђ', 'Apple', true, true),
+       ('РЎРјР°СЂС‚С„РѕРЅ', 'РЎРЁРђ', 'Google', false, true),
+       ('РЎРјР°СЂС‚С„РѕРЅ', 'РљРёС‚Р°Р№', 'Huawei', false, true),
+       ('РљРѕРјРїСЊСЋС‚РµСЂ', 'РЎРЁРђ', 'Apple', false, true),
+       ('РљРѕРјРїСЊСЋС‚РµСЂ', 'РЎРЁРђ', 'HP', false, true),
+       ('РљРѕРјРїСЊСЋС‚РµСЂ', 'РљРёС‚Р°Р№', 'Lenovo', true, true);
 
 INSERT INTO Model (name, serial_number, color, size, price, is_available, type_of_device, device_id, tv_category,
                    tv_technology)
-VALUES ('KD-65X81J', 'W28M-68JG-REC4-F6TB', 'Голубой', 52, 96890, false, 'Телевизор', 1, '4K UHD', 'Direct LED'),
-       ('XR-55X90J 2021', 'DPFI-0SQM-ZWCR-8CAI', 'Черный', 56, 122490, true, 'Телевизор', 1, '4K UHD', 'Direct LED'),
-       ('Series 8 NU8000,', 'KU9A-HOK4-FS6J-F8U0', 'Черный', 43, 45790, true, 'Телевизор', 2, 'Full HD', 'OLED'),
-       ('UE58AU7500U', '103T-OTEN-MX02-WDOJ', 'Голубой', 52, 99990, false, 'Телевизор', 2, '4K UHD', 'Direct LED'),
-       ('32PHS6825', '8VXB-VY8F-T3UK-3JI1', 'Черный', 34, 38999, true, 'Телевизор', 3, 'Full HD', 'OLED'),
-       ('55PUS7406', 'O0RU-BU1X-A8O3-KECK', 'Черный', 37, 39990, true, 'Телевизор', 3, 'Full HD', 'QLED');
+VALUES ('KD-65X81J', 'W28M-68JG-REC4-F6TB', 'Р“РѕР»СѓР±РѕР№', 52, 96890, false, 'РўРµР»РµРІРёР·РѕСЂ', 1, '4K UHD', 'Direct LED'),
+       ('XR-55X90J 2021', 'DPFI-0SQM-ZWCR-8CAI', 'Р§РµСЂРЅС‹Р№', 56, 122490, true, 'РўРµР»РµРІРёР·РѕСЂ', 1, '4K UHD', 'Direct LED'),
+       ('Series 8 NU8000,', 'KU9A-HOK4-FS6J-F8U0', 'Р§РµСЂРЅС‹Р№', 43, 45790, true, 'РўРµР»РµРІРёР·РѕСЂ', 2, 'Full HD', 'OLED'),
+       ('UE58AU7500U', '103T-OTEN-MX02-WDOJ', 'Р“РѕР»СѓР±РѕР№', 52, 99990, false, 'РўРµР»РµРІРёР·РѕСЂ', 2, '4K UHD', 'Direct LED'),
+       ('32PHS6825', '8VXB-VY8F-T3UK-3JI1', 'Р§РµСЂРЅС‹Р№', 34, 38999, true, 'РўРµР»РµРІРёР·РѕСЂ', 3, 'Full HD', 'OLED'),
+       ('55PUS7406', 'O0RU-BU1X-A8O3-KECK', 'Р§РµСЂРЅС‹Р№', 37, 39990, true, 'РўРµР»РµРІРёР·РѕСЂ', 3, 'Full HD', 'QLED');
 
 
 INSERT INTO Model (name, serial_number, color, size, price, is_available, type_of_device, device_id,
                    vacuum_cleaner_dust_bag_capacity, vacuum_cleaner_modes)
-VALUES ('VCC4520S36', 'V6LC-JZVG-H4HL-RK5C', 'Черный', 5, 11999, false, 'Пылесос', 4, 2.4, 2),
-       ('SC885B', 'CBEU-Z4PY-Y9BD-7PZU', 'Оранжевый', 6, 9990, true, 'Пылесос', 4, 1.6, 1),
-       ('VC5316NNDR', 'J78M-69JH-5EWW-FKTD', 'Красный', 6, 12199, true, 'Пылесос', 5, 1.8, 1),
-       ('VC5420NHTCG', 'QCT5-N5D9-LAPE-MQNV', 'Черный', 6, 21090, false, 'Пылесос', 5, 2, 2),
-       ('BR4200', '7HMN-UA7R-SFJX-2VHE', 'Синий', 6, 8590, true, 'Пылесос', 6, 2.1, 1),
-       ('BR4208', 'EDG6-BGRA-9KDF-9RBW', 'Черный', 8, 25999, false, 'Пылесос', 6, 3.5, 2);
+VALUES ('VCC4520S36', 'V6LC-JZVG-H4HL-RK5C', 'Р§РµСЂРЅС‹Р№', 5, 11999, false, 'РџС‹Р»РµСЃРѕСЃ', 4, 2.4, 2),
+       ('SC885B', 'CBEU-Z4PY-Y9BD-7PZU', 'РћСЂР°РЅР¶РµРІС‹Р№', 6, 9990, true, 'РџС‹Р»РµСЃРѕСЃ', 4, 1.6, 1),
+       ('VC5316NNDR', 'J78M-69JH-5EWW-FKTD', 'РљСЂР°СЃРЅС‹Р№', 6, 12199, true, 'РџС‹Р»РµСЃРѕСЃ', 5, 1.8, 1),
+       ('VC5420NHTCG', 'QCT5-N5D9-LAPE-MQNV', 'Р§РµСЂРЅС‹Р№', 6, 21090, false, 'РџС‹Р»РµСЃРѕСЃ', 5, 2, 2),
+       ('BR4200', '7HMN-UA7R-SFJX-2VHE', 'РЎРёРЅРёР№', 6, 8590, true, 'РџС‹Р»РµСЃРѕСЃ', 6, 2.1, 1),
+       ('BR4208', 'EDG6-BGRA-9KDF-9RBW', 'Р§РµСЂРЅС‹Р№', 8, 25999, false, 'РџС‹Р»РµСЃРѕСЃ', 6, 3.5, 2);
 
 
 INSERT INTO Model (name, serial_number, color, size, price, is_available, type_of_device, device_id, fridge_doors,
                    fridge_compressor_type)
-VALUES ('KGN36NL30U', 'VIAO-IBLS-GG77-QW5O', 'Белый', 262, 39790, true, 'Холодильник', 7, 2, 'Инверторный'),
-       ('KGN39VC24R', '2N4G-PGFA-NL1Q-X1Y6', 'Белый', 351, 15790, true, 'Холодильник', 7, 1, 'Линейный'),
-       ('GA-B509CVQM', 'IJYZ-5M9T-4QV8-E6SP', 'Голубой', 364, 85900, false, 'Холодильник', 8, 2, 'Инверторный'),
-       ('GN-B502PLGB', 'POSH-CH2L-BMPQ-L2M7', 'Белый', 364, 35990, true, 'Холодильник', 8, 2, 'Линейный'),
-       ('ХМ 4008-022', 'DPFI-0SQM-ZWCR-8CAI', 'Черный', 332, 12990, true, 'Холодильник', 9, 1, 'Линейный'),
-       ('ХМ 4012-022', 'KU9A-HOK4-FS6J-F8U0', 'Белый', 535, 99990, false, 'Холодильник', 9, 2, 'Инверторный');
+VALUES ('KGN36NL30U', 'VIAO-IBLS-GG77-QW5O', 'Р‘РµР»С‹Р№', 262, 39790, true, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 7, 2, 'РРЅРІРµСЂС‚РѕСЂРЅС‹Р№'),
+       ('KGN39VC24R', '2N4G-PGFA-NL1Q-X1Y6', 'Р‘РµР»С‹Р№', 351, 15790, true, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 7, 1, 'Р›РёРЅРµР№РЅС‹Р№'),
+       ('GA-B509CVQM', 'IJYZ-5M9T-4QV8-E6SP', 'Р“РѕР»СѓР±РѕР№', 364, 85900, false, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 8, 2, 'РРЅРІРµСЂС‚РѕСЂРЅС‹Р№'),
+       ('GN-B502PLGB', 'POSH-CH2L-BMPQ-L2M7', 'Р‘РµР»С‹Р№', 364, 35990, true, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 8, 2, 'Р›РёРЅРµР№РЅС‹Р№'),
+       ('РҐРњ 4008-022', 'DPFI-0SQM-ZWCR-8CAI', 'Р§РµСЂРЅС‹Р№', 332, 12990, true, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 9, 1, 'Р›РёРЅРµР№РЅС‹Р№'),
+       ('РҐРњ 4012-022', 'KU9A-HOK4-FS6J-F8U0', 'Р‘РµР»С‹Р№', 535, 99990, false, 'РҐРѕР»РѕРґРёР»СЊРЅРёРє', 9, 2, 'РРЅРІРµСЂС‚РѕСЂРЅС‹Р№');
 
 
 INSERT INTO Model (name, serial_number, color, size, price, is_available, type_of_device, device_id, phone_memory,
                    phone_cameras)
-VALUES ('iPhone 13 Pro', '103T-OTEN-MX02-WDOJ', 'Белый', 6.1, 85990, false, 'Смартфон', 10, 256, 2),
-       ('iPhone 14 Pro Max', '8VXB-VY8F-T3UK-3JI1', 'Черный', 6.7, 92990, true, 'Смартфон', 10, 512, 3),
-       ('Google Pixel 7', 'O0RU-BU1X-A8O3-KECK', 'Белый', 6.43, 79090, false, 'Смартфон', 11, 512, 4),
-       ('Google Pixel 5', 'V6LC-JZVG-H4HL-RK5C', 'Серый', 6.12, 21790, true, 'Смартфон', 11, 128, 2),
-       ('Galaxy S21 Ultra', 'CBEU-Z4PY-Y9BD-7PZU', 'Синий', 6.8, 79990, true, 'Смартфон', 12, 512, 4),
-       ('Galaxy S21 FE', 'J78M-69JH-5EWW-FKTD', 'Синий', 6.4, 59990, true, 'Смартфон', 12, 256, 2);
+VALUES ('iPhone 13 Pro', '103T-OTEN-MX02-WDOJ', 'Р‘РµР»С‹Р№', 6.1, 85990, false, 'РЎРјР°СЂС‚С„РѕРЅ', 10, 256, 2),
+       ('iPhone 14 Pro Max', '8VXB-VY8F-T3UK-3JI1', 'Р§РµСЂРЅС‹Р№', 6.7, 92990, true, 'РЎРјР°СЂС‚С„РѕРЅ', 10, 512, 3),
+       ('Google Pixel 7', 'O0RU-BU1X-A8O3-KECK', 'Р‘РµР»С‹Р№', 6.43, 79090, false, 'РЎРјР°СЂС‚С„РѕРЅ', 11, 512, 4),
+       ('Google Pixel 5', 'V6LC-JZVG-H4HL-RK5C', 'РЎРµСЂС‹Р№', 6.12, 21790, true, 'РЎРјР°СЂС‚С„РѕРЅ', 11, 128, 2),
+       ('Galaxy S21 Ultra', 'CBEU-Z4PY-Y9BD-7PZU', 'РЎРёРЅРёР№', 6.8, 79990, true, 'РЎРјР°СЂС‚С„РѕРЅ', 12, 512, 4),
+       ('Galaxy S21 FE', 'J78M-69JH-5EWW-FKTD', 'РЎРёРЅРёР№', 6.4, 59990, true, 'РЎРјР°СЂС‚С„РѕРЅ', 12, 256, 2);
 
 
 INSERT INTO Model (name, serial_number, color, size, price, is_available, type_of_device, device_id, computer_category,
                    computer_processor_type)
-VALUES ('TEST', 'TEST-TEST-TEST-TEST', 'Белый', 26, 243990, true, 'Компьютер', 13, 'Офисный', 'M3'),
-       ('MacBook Air 15.3', '7HMN-UA7R-SFJX-2VHE', 'Серый', 15.6, 117990, true, 'Компьютер', 13, 'Офисный',
+VALUES ('TEST', 'TEST-TEST-TEST-TEST', 'Р‘РµР»С‹Р№', 26, 243990, true, 'РљРѕРјРїСЊСЋС‚РµСЂ', 13, 'РћС„РёСЃРЅС‹Р№', 'M3'),
+       ('MacBook Air 15.3', '7HMN-UA7R-SFJX-2VHE', 'РЎРµСЂС‹Р№', 15.6, 117990, true, 'РљРѕРјРїСЊСЋС‚РµСЂ', 13, 'РћС„РёСЃРЅС‹Р№',
         'M2'),
-       ('15s-eq2008nia 48M40EA', 'EDG6-BGRA-9KDF-9RBW', 'Зеленый', 16, 89990, false, 'Компьютер', 14, 'Игровой',
+       ('15s-eq2008nia 48M40EA', 'EDG6-BGRA-9KDF-9RBW', 'Р—РµР»РµРЅС‹Р№', 16, 89990, false, 'РљРѕРјРїСЊСЋС‚РµСЂ', 14, 'РРіСЂРѕРІРѕР№',
         'AMD Ryzen 3'),
-       ('Omen 16-wd0007ci', 'VIAO-IBLS-GG77-QW5O', 'Голубой', 16.1, 143999, true, 'Компьютер', 14, 'Игровой',
+       ('Omen 16-wd0007ci', 'VIAO-IBLS-GG77-QW5O', 'Р“РѕР»СѓР±РѕР№', 16.1, 143999, true, 'РљРѕРјРїСЊСЋС‚РµСЂ', 14, 'РРіСЂРѕРІРѕР№',
         'Core i5-12400F'),
-       ('V15-IGL Gray', '2N4G-PGFA-NL1Q-X1Y6', 'Черный', 512, 39990, false, 'Компьютер', 15, 'Офисный',
+       ('V15-IGL Gray', '2N4G-PGFA-NL1Q-X1Y6', 'Р§РµСЂРЅС‹Р№', 512, 39990, false, 'РљРѕРјРїСЊСЋС‚РµСЂ', 15, 'РћС„РёСЃРЅС‹Р№',
         'Core i3-10105'),
-       ('LOQ 15IRH8 Gray', 'WTL0-TNW3-RRI9-S7GQ', 'Белый', 512, 89990, true, 'Компьютер', 15, 'Игровой',
+       ('LOQ 15IRH8 Gray', 'WTL0-TNW3-RRI9-S7GQ', 'Р‘РµР»С‹Р№', 512, 89990, true, 'РљРѕРјРїСЊСЋС‚РµСЂ', 15, 'РРіСЂРѕРІРѕР№',
         'Core i5-12450H');
